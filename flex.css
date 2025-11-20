@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+}
+div{
+    height : 50px;
+    width : 150px;
+    display : inline-block;
+    border : 2px solid black;
+}
+#container1{
+    width : 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* flex end try krke dekho ya space between ya space evenly*/
+    flex-wrap:wrap;
+}
+#container2{
+    width : 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+#container3{
+    width : 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#container4{
+    width : 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container5{
+    width : 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+}
+#container6{
+    width : 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    /* flex-wrap: wrap; */
+    align-items:center;
+    align-content: center;
+}
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color:bisque;
+}
+#box3{
+    background-color:burlywood;
+}
+#box4{
+    background-color:cadetblue;
+}
+#box5{
+    background-color:darksalmon;
+}
+
+#one{
+    background-color: aquamarine;
+}
+#two{
+    background-color:bisque;
+    height: 200px;
+}
+#three{
+    background-color:burlywood;
+    height:75px;
+}
+#four{
+    background-color:cadetblue;
+}
+#five{
+    background-color:darksalmon;
+}
+
+#o{
+    background-color: aquamarine;
+}
+#t{
+    background-color:bisque;
+    height: 200px;
+    flex-shrink: 2;
+}
+#th{
+    background-color:burlywood;
+    height:75px;
+}
+#f{
+    background-color:cadetblue;
+    flex-shrink: 0.15; /* I want eh bakiyan de comparitively 0.15 times ghat shrink hove*/
+}
+#fi{
+    background-color:darksalmon;
+}
+

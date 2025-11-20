@@ -1,0 +1,25 @@
+div{
+    color : rgb(8, 110, 110);
+    height : 200px;
+    width : 200px;
+    background-color: aqua;
+    border : solid rgb(8, 110, 110);
+    position: absolute;
+    top:200px;
+    left:200px;
+    transform: rotate(45deg);
+    /* rotate: z(45deg); */
+    transition-duration: 1s;
+    transform:scale(2) ;
+}
+div:hover{
+    background-color: aquamarine;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    transform:skew(40deg);
+}
+div:active{
+    /* active mtlb click kre te */
+    background-color: pink;
+}

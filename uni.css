@@ -1,0 +1,14 @@
+#box1{
+    height: 100px;
+    width:100px;
+    background-color: pink;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width:50%;
+    background-color: hotpink;
+    font-size: 3em;
+    /* mtlb je parent da size 10 taan 3 em mtlb ohda 3 times krdo */
+    width:5rem;
+}

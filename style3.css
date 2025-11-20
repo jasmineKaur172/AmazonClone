@@ -1,0 +1,34 @@
+#para1{
+    text-align: justify;
+    font-weight: 450;
+    font-family :'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+#para2{
+    text-align: center;
+    font-weight: 450;
+    font-family :cursive;
+}
+h1{
+    text-align: center;
+    text-decoration:rgb(229, 199, 6) wavy underline;
+    font-weight: dark;
+    font-family : Arial, Helvetica, sans-serif;
+    /* dark ya light ho skda 100 to 900 ho skda */
+}
+a{
+    text-decoration: none; 
+    /* anchor tag ch by default underline hunda ohnu htan li likhya */
+}
+#one{
+    font-size : 14px;
+    text-transform: capitalize;
+}
+#two{
+    font-size: 25px;
+    text-transform: lowercase;
+}
+#three{
+    font-size: 78px;
+    text-transform: uppercase ;
+}

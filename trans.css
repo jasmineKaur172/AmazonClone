@@ -1,0 +1,21 @@
+div{
+    color : rgb(8, 110, 110);
+    height : 200px;
+    width : 200px;
+    background-color: aqua;
+    border : solid rgb(8, 110, 110);
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5);
+    transition-delay: 1s;
+}
+div:hover{
+    background-color: aquamarine;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+div:active{
+    /* active mtlb click kre te */
+    background-color: pink;
+}
